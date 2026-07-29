@@ -1,0 +1,72 @@
+
+a {
+    display: inline-block;
+    margin: 15px 10px;
+    padding: 12px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 5px #ffff,
+                0 0 10px  #ffff,
+                0 0 15px #ffff ;
+    background-color: #2600ff;
+    box-shadow: 0 0 5px #2600ff,
+                0 0 10px  #2600ff,
+                0 0 15px #2600ff ;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4efe9;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Contenedor principal */
+body > * {
+   
+    margin: auto;
+}
+
+
+
+/* Títulos */
+h1 {
+   color: #ffff;
+    text-shadow: 0 0 10px #ffff,
+                0 0 20px  #ffff,
+                0 0 30px #ffff ;
+}
+h3 {
+   color: #ffff;
+    text-shadow: 0 0 10px #ffff,
+                0 0 20px  #ffff,
+                0 0 30px #ffff ;
+}
+
+/* Párrafos */
+p {
+    margin: 15px 0;
+    font-size: 18px;
+    text-align: justify;
+    text-shadow: 0 0 5px #ffff,
+                0 0 10px  #ffff,
+                0 0 15px #ffff ;
+}
+
+
+a:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease;
+}

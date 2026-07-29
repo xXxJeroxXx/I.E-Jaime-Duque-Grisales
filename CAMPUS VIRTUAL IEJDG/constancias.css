@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+   
+    color: #333;
+    line-height: 1.6;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Contenedor principal */
+body > * {
+    margin: auto;
+}
+/* Títulos */
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Párrafos */
+p {
+    margin: 15px 0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Enlaces estilo botón */
+a {
+    display: inline-block;
+    margin: 15px 10px;
+    padding: 12px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: #2600ff;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    background-color: #2600ff;
+    box-shadow: 0 0 5px #2600ff,
+                0 0 10px  #2600ff,
+                0 0 15px #2600ff ;
+            text-shadow: 0 0 5px #ffff,
+                0 0 10px  #ffff,
+                0 0 15px #ffff
+}
+
+/* Sección de actualización */
+p h1 {
+    margin-top: 40px;
+    font-size: 28px;
+    color: #3a4f7a;
+}
+
+/* Efecto suave al pasar el mouse */
+a:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease;
+    
+} 
+h3 { color: #f4efe9;
+text-shadow:0 0 10px #ffffff,
+                0 0 20px#ffffff,
+                0 0 30px #ffffff ;}
+    p { color: #f4efe9;
+text-shadow:0 0 10px #ffffff,
+                0 0 20px#ffffff,
+                0 0 30px #ffffff ;}
