@@ -1,0 +1,5 @@
+- **Azul Oscuro (Primario):** `#0A1B43`
+- **Rojo (Secundario):** `#B21F32`
+- **Amarillo Ocre (Acento):** `#F7C733`
+- **Azul Claro (Apoyo):** `#A9C6E2`
+- **Gris Oscuro (Texto):** `#424242`
