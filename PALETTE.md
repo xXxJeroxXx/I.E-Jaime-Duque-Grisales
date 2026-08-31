@@ -2,5 +2,5 @@
 - **Rojo :** `#B21F32`
 - **Amarillo Ocre :** `#F7C733`
 - **Azul Claro :** `#A9C6E2`
-- **Gris Oscuro: ** `#424242`
-- **Blanco: ** `#FFFFFF`
+- **Gris Oscuro :** `#424242`
+- **Blanco :** `#FFFFFF`
