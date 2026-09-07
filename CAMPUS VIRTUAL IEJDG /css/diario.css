@@ -1,0 +1,53 @@
+@import url('style.css');
+
+/* Titulo */
+.section-header {
+    margin: 20px 0 35px 0;
+}
+
+.section-header h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--color-primary-dark);
+    display: inline-block;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.section-header h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: var(--color-accent-ochre);
+    border-radius: 2px;
+}
+
+/* Tarjeta informativa / Placeholder */
+.diario-card, .card-placeholder {
+    background-color: var(--color-white);
+    border: 2px solid var(--color-light-blue);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    padding: 40px 30px;
+    max-width: 750px;
+    margin: 30px auto;
+}
+
+.card-placeholder h2 {
+    font-family: var(--font-title);
+    color: var(--color-primary-dark);
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card-placeholder p {
+    color: var(--color-dark-gray);
+    font-size: 16px;
+    line-height: 1.8;
+}
+ 
